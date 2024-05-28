@@ -1,0 +1,54 @@
+.header-grid-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('../../../../assets/SEC1.jpg');
+    background-repeat: no-repeat;
+    background-size: auto 90%;
+    /* Adjust the 80% from the top */
+    background-position: right center;
+
+
+    /* Set container height to full viewport height */
+
+    /* Align to the right */
+    /* Adjust based on your design needs */
+}
+
+
+
+.content-container {
+
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 20px;
+    /* Aligns text to the left */
+}
+
+.col-start-1 {
+    margin-left: 20px;
+}
+
+
+.content-container h1 {
+    color: #FFA500;
+    margin-bottom: 20px;
+}
+
+.content-container p {
+    margin-bottom: 20px;
+}
+
+.content-container button {
+    background-color: #FFA500;
+    /* Example button color: orange */
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
